@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    place-content: center;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+h2 span{
+    font-weight: 800;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img{
+    animation:spin 4s linear infinite;
+}
+
+
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}

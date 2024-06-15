@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,8 +6,13 @@ function App() {
   return (
     <>
 
-      <h2>  </h2>
+      <main>
 
+        <h2>  <span> !Hola mundo! </span> desde React </h2>
+        <img src="src/assets/LogosReact.png" alt="LogoReact" />
+
+      </main>
+      
     </>
   )
 }
